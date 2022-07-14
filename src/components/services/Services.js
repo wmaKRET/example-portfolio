@@ -4,7 +4,7 @@ import "./services.css"
 
 function Services(){
     return (
-        <h1>Services</h1>
+        <section id="services">services</section>
     )
 }
 
