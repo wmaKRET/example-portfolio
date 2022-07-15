@@ -1,0 +1,38 @@
+.contact__container {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    gap: 10%;
+}
+
+.contact__email {
+    height: 10em;
+    background: var(--color-bg-variant);
+    border-radius: 2em;
+    padding: 1em 2em;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+.contact__email:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contact__form > input, textarea {
+    background-color: var(--color-bg-variant);
+    border: none;
+    padding: 1em 2em;
+    color: var(--color-white);
+    border-radius: 2em;
+}
+
+.contact__form > textarea {
+    height: 10em;
+    resize: none;
+}
